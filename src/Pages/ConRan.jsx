@@ -4,8 +4,7 @@ import React from 'react';
 
 
 // Message Component
-function Message(props)
-{
+function Message(props) {
 	if (props.isLoggedIn)
 		return <h1>Welcome User</h1>;
 	else
@@ -13,67 +12,58 @@ function Message(props)
 }
 
 // Login Component
-function Login(props)
-{
-return(
-		<button onClick = {props.clickFunc}>
+function Login(props) {
+	return (
+		<button onClick={props.clickFunc}>
 			Login
 		</button>
 	);
 }
 
 // Logout Component
-function Logout(props)
-{
-	return(
-		<button onClick = {props.clickFunc}>
+function Logout(props) {
+	return (
+		<button onClick={props.clickFunc}>
 			Logout
 		</button>
 	);
 }
 
 // Parent Homepage Component
-class Homepage extends React.Component{
+class Homepage extends React.Component {
 
-	constructor(props)
-	{
+	constructor(props) {
 		super(props);
 
-		this.state = {isLoggedIn : false};
+		this.state = { isLoggedIn: false };
 
 		this.ifLoginClicked = this.ifLoginClicked.bind(this);
 		this.ifLogoutClicked = this.ifLogoutClicked.bind(this);
 	}
 
-	ifLoginClicked()
-	{
-		this.setState({isLoggedIn : true});
+	ifLoginClicked() {
+		this.setState({ isLoggedIn: true });
 	}
 
-	ifLogoutClicked()
-	{
-		this.setState({isLoggedIn : false});
+	ifLogoutClicked() {
+		this.setState({ isLoggedIn: false });
 	}
 
-	render(){
-
-		return(
-
+	render() {
+		return (
 			<div>
-
-				<Message isLoggedIn = {this.state.isLoggedIn}/>
-				
+				<Message isLoggedIn={this.state.isLoggedIn} />
 				{
-					(this.state.isLoggedIn)?(
-					<Logout clickFunc = {this.ifLogoutClicked} />
+					(this.state.isLoggedIn) ? (
+						<Logout clickFunc={this.ifLogoutClicked} />
 					) : (
-					<Login clickFunc = {this.ifLoginClicked} />
+						<Login clickFunc={this.ifLoginClicked} />
 					)
 				}
-
+				<br />
+				<a href='https://github.com/Paresh09pat/InterviewReact/blob/main/src/Pages/ConRan.jsx'> <button>Click Me To See Code !!</button></a>
 			</div>
-				
-			);
+		);
 	}
 }
 

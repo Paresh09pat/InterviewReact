@@ -30,7 +30,7 @@ const UseRedu = () => {
       <button onClick={() => dispatch("reset")}>
         reset
       </button>
-      <a href='https://www.w3schools.in/html/anchor'> <button>Click Me To See Code !!</button></a>
+      <a href='https://github.com/Paresh09pat/InterviewReact/blob/main/src/Pages/UseReducer.jsx'> <button>Click Me To See Code !!</button></a>
     </div>
   );
 };
