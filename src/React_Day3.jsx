@@ -60,7 +60,6 @@ const React_Day3 = () => {
         color: 'red'
       }}>
         <HookUState />
-        
       </div>
 
 
@@ -69,7 +68,6 @@ const React_Day3 = () => {
       Some examples of side effects are: fetching data, directly updating the DOM, and timers.<br />
       useEffect accepts two arguments. The second argument is optional.<br />
       useEffect(function, dependency)
-
 
       <div style={{
         margin: '10px',

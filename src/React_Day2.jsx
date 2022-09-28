@@ -58,6 +58,10 @@ const React_Day2 = () => {
             2 . Secondly, lazy loading may affect the website’s ranking on search engines sometimes, due to improper indexing of the unloaded content.<br />
 
             <h3>6 . Difference b/w Stateful and stateless Component</h3>
+            1 . The literal difference is that one has state, and the other doesn’t. That means the stateful components are keeping track of changing data, <br/>
+            while stateless components print out what is given to them via props, or they always render the same thing.<br/><br/>
+            2 . Stateful Protocols require the server to save the state of a process.<br/>
+            Stateless Protocols do not need the server to save the state of a process.<br/><br/>
 
 
             <h3>7 . How do you switch one component to another, Conditional Rendering</h3>
@@ -72,13 +76,7 @@ const React_Day2 = () => {
             }}>
                 <Homepage />
             </div>
-
-
-
-
-
-
-
+            
         </div>
     )
 }

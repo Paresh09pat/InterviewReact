@@ -13,7 +13,6 @@ const Nav = () => {
             justifyContent:'space-around',
             backgroundColor:'aqua'
             }}>
-
              <h3 ><li><NavLink  to ="/">Day 1</NavLink></li></h3>
              <h3><li><NavLink  to="/Day2" >Day 2</NavLink></li></h3>
              <h3><li><NavLink  to="/Day3">Day 3 </NavLink></li></h3>
