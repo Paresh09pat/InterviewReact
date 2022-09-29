@@ -1,5 +1,7 @@
 import React from 'react'
 import HookUState from './Pages/HooksUseState'
+import TestLifecycle from './Pages/Lifecycle'
+
 import Timer from './Pages/useEffect'
 import UseRedu from './Pages/UseReducer'
 
@@ -131,8 +133,18 @@ const React_Day3 = () => {
       React has only one built-in method that gets called when a component is unmounted . <br />
       1 . componentWillUnmount() <br /><br />
       componentWillUnmount<br />
-      The componentWillUnmount method is called when the component is about to be removed from the DOM.
-
+      The componentWillUnmount method is called when the component is about to be removed from the DOM. <br/>
+      <p style={{
+        margin: '10px',
+        width: '20%',
+        marginLeft: '20%',
+        textAlign: 'center',
+        padding: '10px',
+        backgroundColor: 'aquamarine',
+        color: 'red'
+      }}> <TestLifecycle /> 
+      <a href='https://github.com/Paresh09pat/InterviewReact/blob/main/src/Pages/Lifecycle.jsx'> <button>Click Me To See Code !!</button></a>
+      </p>
       <h3>5 . What is UseReducer Hook ?(Implementation)</h3>
 
       The useReducer Hook is the better alternative to the useState hook and is generally more preferred over the useState hook <br />

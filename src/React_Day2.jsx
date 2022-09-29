@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import React from 'react'
 import Homepage from './Pages/ConRan'
 
+
 const React_Day2 = () => {
     return (
         <div style={{ marginLeft: '20px' }}>
@@ -77,6 +78,8 @@ const React_Day2 = () => {
                 <Homepage />
             </div>
             
+        
+
         </div>
     )
 }
