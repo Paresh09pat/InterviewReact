@@ -5,10 +5,11 @@ constructor(props){
     super(props)
     this.state={
          name:'Paresh',
-         city:'Pune'
+         city:'Pune',
+    
     }
 }
-handlechange=(event)=>{
+handlechange=()=>{
     this.setState({
         name:"Umesh",
         city:'Jalgaon'
@@ -19,7 +20,7 @@ handlechange=(event)=>{
     render(){
         return(
             <>
-            Hey My Name is <span style={{backgroundColor:"cyan"}}> {this.state.name} .</span>  I am From <span  style={{backgroundColor:"cyan"}}>{this.state.city} .</span>
+            Hey My Name is <span style={{backgroundColor:"cyan"}}> {this.state.name} .</span>  I am From <span  style={{backgroundColor:"cyan"}}>{this.state.city} .</span> and my age is {this.props.age}
 <br/><br/>
             <button onClick={this.handlechange}> Change State</button>
 

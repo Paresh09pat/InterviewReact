@@ -25,7 +25,7 @@ class App extends React.Component{
           <Route path="/Day4" element={<ReactDay4 />} />
           <Route path="/Day5" element={<ReactDay5 />} />
           <Route path="/Day6" element={<ReactDay6 />} />
-          <Route path="/passdata" element={<PassData />} />
+          <Route path="/passdata" element={<PassData  age='30'/>} />
          
       </Routes>
       </BrowserRouter>
