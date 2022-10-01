@@ -145,6 +145,8 @@ const React_Day3 = () => {
       }}> <TestLifecycle /> 
       <a href='https://github.com/Paresh09pat/InterviewReact/blob/main/src/Pages/Lifecycle.jsx'> <button>Click Me To See Code !!</button></a>
       </p>
+
+      
       <h3>5 . What is UseReducer Hook ?(Implementation)</h3>
 
       The useReducer Hook is the better alternative to the useState hook and is generally more preferred over the useState hook <br />

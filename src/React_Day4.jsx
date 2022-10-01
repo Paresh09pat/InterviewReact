@@ -14,8 +14,7 @@ const React_Day4 = () => {
 
       <UseReferance />
       
-
-
+      
       <h3>3 . What is Context api</h3>
 
       The previous version of Context Api was experimental whereas the new version in React 16+ is more stable and efficient.<br />
