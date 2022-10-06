@@ -5,6 +5,9 @@ const React_Day4 = () => {
   return (
     <div style={{ marginLeft: '20px' }}>
       <h3>1 . What is UseMemo Hook ?(Implementation)</h3>
+      The React useMemo Hook returns a memoized value. Think of memoization as caching a value so that it does not need to be recalculated. <br/>
+      The useMemo Hook only runs when one of its dependencies update. This can improve performance. The useMemo and useCallback Hooks are similar.
+
 
       <h3>2 . What is UseRef Hook ?(Implementation)</h3>
       The useRef is a hook that allows to directly create a reference to the DOM element in the functional component. <br /><br />
@@ -27,6 +30,10 @@ const React_Day4 = () => {
 
       <h3>4 . Difference between callback and useCallback Hook ?</h3>
 
+      <h3>Callback</h3>
+      A callback is a function passed as an argument to another function. This technique allows a function to call another function. <br/>
+      A callback function can run after another function has finished.
+
       <h3>useCallback</h3>
       The useCallback hook is used when you have a component in which the child is rerendering again and again without need.<br />
 
@@ -44,7 +51,8 @@ const React_Day4 = () => {
 
       <h3> 6 . Difference between useEffect and useContext ?</h3>
       <h3>useEffect</h3>
-      It allows us to implement all of the lifecycle hooks from within a single function API.
+      It allows us to implement all of the lifecycle hooks from within a single function API.<br/>
+      The useEffect Hook allows you to perform side effects in your components.
 
       <h3>useContext</h3>
       This hook allows us to work with React's Context API, which itself a mechanism to allow us to share data within it's component tree without passing through props.
