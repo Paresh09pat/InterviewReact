@@ -1,12 +1,16 @@
 import React from 'react'
 import UseReferance from './Pages/UseRef'
+import Memo from './Pages/UseMemo'
 
 const React_Day4 = () => {
   return (
     <div style={{ marginLeft: '20px' }}>
       <h3>1 . What is UseMemo Hook ?(Implementation)</h3>
-      The React useMemo Hook returns a memoized value. Think of memoization as caching a value so that it does not need to be recalculated. <br/>
-      The useMemo Hook only runs when one of its dependencies update. This can improve performance. The useMemo and useCallback Hooks are similar.
+      It’s a function that prevents your React Hook components from rendering when the props don’t change.<br />
+      It returns a memoized value after taking a function and a list of dependencies. It returns the cached value if the dependencies do not change.<br />
+      Otherwise, it will recompute the value using the passed function.
+       
+       <Memo />
 
 
       <h3>2 . What is UseRef Hook ?(Implementation)</h3>
@@ -16,8 +20,8 @@ const React_Day4 = () => {
       The .current property could be initialised to the passed argument initialValue e.g. useRef(initialValue). The object can persist a value for a full lifetime of the component.
 
       <UseReferance />
-      
-      
+
+
       <h3>3 . What is Context api</h3>
 
       The previous version of Context Api was experimental whereas the new version in React 16+ is more stable and efficient.<br />
@@ -31,7 +35,7 @@ const React_Day4 = () => {
       <h3>4 . Difference between callback and useCallback Hook ?</h3>
 
       <h3>Callback</h3>
-      A callback is a function passed as an argument to another function. This technique allows a function to call another function. <br/>
+      A callback is a function passed as an argument to another function. This technique allows a function to call another function. <br />
       A callback function can run after another function has finished.
 
       <h3>useCallback</h3>
@@ -51,7 +55,7 @@ const React_Day4 = () => {
 
       <h3> 6 . Difference between useEffect and useContext ?</h3>
       <h3>useEffect</h3>
-      It allows us to implement all of the lifecycle hooks from within a single function API.<br/>
+      It allows us to implement all of the lifecycle hooks from within a single function API.<br />
       The useEffect Hook allows you to perform side effects in your components.
 
       <h3>useContext</h3>

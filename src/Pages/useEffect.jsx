@@ -6,13 +6,13 @@ function Timer() {
   const [calculation, setCalculation] = useState(0);
 
   useEffect(() => {
-    setCalculation(() => count * 2);
+    setCalculation(() => calculation + 2);
   }, [count]); // <- add the count variable here
 
   return (
     <>
       <p>Count : {count}</p>
-      <button onClick={() => setCount((c) => c + 1)}>+</button>
+      <button onClick={() => setCount((c) => c + 1)}>Update</button>
       <p>Calculation : {calculation}</p>
     </>
   );

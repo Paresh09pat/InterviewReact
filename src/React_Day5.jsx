@@ -28,12 +28,13 @@ const React_Day5 = () => {
 
       <h3> 4 . What is the use of useCallback and useMemo</h3>
       <h3>useCallback</h3>
-      The useCallback hook is used when you have a component in which the child is rerendering again and again without need. Pass an inline callback and an array of dependencies.<br />
-      useCallback will return a memoized version of the callback that only changes if one of the dependencies has changed.
+      1 . The useCallback hook is used when you have a component in which the child is rerendering again and again without need. Pass an inline callback and an array of dependencies.<br />
+      useCallback will return a memoized version of the callback that only changes if one of the dependencies has changed. <br />
+      2 . The useCallback always return a memoized function.
       <h3>useMemo</h3>
-      React has a built-in hook called useMemo that allows you to memoize expensive functions so that you can avoid calling them on every render. <br />
-      You simple pass in a function and an array of inputs and useMemo will only recompute the memoized value when one of the inputs has changed.
-
+      1 . React has a built-in hook called useMemo that allows you to memoize expensive functions so that you can avoid calling them on every render. <br />
+      You simple pass in a function and an array of inputs and useMemo will only recompute the memoized value when one of the inputs has changed.<br />
+      2 . The useMemo always return a memoized value
 
       <h3> 5 . Why do we need keys in react less</h3>
       The main purpose of keys is to help React differentiate and distinguish elements from each other, increasing its performance when diffing between the virtual and real DOM.<br />
@@ -55,7 +56,7 @@ const React_Day5 = () => {
       where the state should reside among these components to make it easier to maintain.<br />
       React-redux provides a store which makes the state inside components easier to maintain.<br />
       Along with stores, react-redux introduces actions and reducers which work simultaneously with stores to make the state more predictable.
-      <br/><br/><br/>
+      <br /><br /><br />
 
 
 

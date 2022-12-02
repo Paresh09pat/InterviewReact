@@ -1,0 +1,9 @@
+.hello{
+    padding: 20px;
+    width: 30%;
+    margin-left: 35%;
+    background-color: rgb(116, 229, 229);
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 20px;
+}
