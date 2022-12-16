@@ -48,6 +48,7 @@ const React_Day6 = () => {
       Registry – any package or module you install using the npm CLI is downloaded from the npm public registry, the JavaScript software database.<br />
       <br /><br /><br /><br /><br />
 
+
     </div>
   )
 }

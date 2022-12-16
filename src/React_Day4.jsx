@@ -6,7 +6,7 @@ const React_Day4 = () => {
   return (
     <div style={{ marginLeft: '20px' }}>
       <h3>1 . What is UseMemo Hook ?(Implementation)</h3>
-      It’s a function that prevents your React Hook components from rendering when the props don’t change.<br />
+      It's a function that prevents your React Hook components from rendering when the props don’t change.<br />
       It returns a memoized value after taking a function and a list of dependencies. It returns the cached value if the dependencies do not change.<br />
       Otherwise, it will recompute the value using the passed function.
        

@@ -61,7 +61,7 @@ class Homepage extends React.Component {
 					)
 				}
 				<br />
-				<a href='https://github.com/Paresh09pat/InterviewReact/blob/main/src/Pages/ConRan.jsx'> <button>Click Me To See Code !!</button></a>
+				<a href='https://github.com/Paresh09pat/InterviewReact/blob/main/src/Pages/ConRan.jsx' target='_blank'> <button>Click Me To See Code !!</button></a>
 			</div>
 		);
 	}
